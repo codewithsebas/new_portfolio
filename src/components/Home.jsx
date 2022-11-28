@@ -5,7 +5,6 @@ import { TbMessage2Share } from "react-icons/tb";
 function Home() {
   return (
     <section
-      id="Home"
       className="h-screen px-40 py-5 duration-200 relative dark:text-white dark:border-white/50 max-sm:px-6"
     >
       <img
@@ -86,8 +85,8 @@ function Home() {
         </div>
         <div className="w-80 bg-contain hidden lg:flex flex-col justify-center">
           <img
-            className="w-auto dropShadow border-4 z-10 animate"
-            src="https://res.cloudinary.com/dovavvnjx/image/upload/v1654896406/tom_oy9ctk.jpg"
+            className="w-72 shadow-2xl border-2 rounded-lg z-10 animate"
+            src="https://res.cloudinary.com/dovavvnjx/image/upload/v1669441972/me2_jgtp6h.jpg"
             alt="Me"
           />
         </div>

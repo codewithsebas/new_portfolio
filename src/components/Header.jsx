@@ -53,9 +53,8 @@ const Header = () => {
 
   return (
     <>
-      <header
-        className="flex justify-between px-40 py-5 sticky top-0 z-20 backdrop-blur-sm bg-white/70 dark:bg-black/10 border-b border-black/10 duration-200 dark:text-white max-lg:px-5"
-      >
+      <div id="Home"></div>
+      <header className="flex justify-between px-40 py-5 sticky top-0 z-20 backdrop-blur-sm bg-white/70 dark:bg-black/10 border-b border-black/10 duration-200 dark:text-white max-lg:px-5">
         <span className="font-semibold">SG</span>
         <nav className="flex gap-10 items-center max-sm:gap-5">
           <ul className="flex gap-5 max-sm:hidden">
@@ -91,11 +90,13 @@ const Header = () => {
           <ul className="w-full grid grid-cols-2 gap-5">
             {Menu.map((value, index) => (
               <li
-                className="flex items-center gap-3 hover:dark:bg-black/40 rounded-md"
+                className="hover:dark:bg-black/40 rounded-md"
                 key={index}
               >
-                <span className="text-lg">{value.icon}</span>
-                <a href={`#${value.item}`}>{value.item}</a>
+                <a className="flex items-center gap-3" href={`#${value.item}`}>
+                  <span className="text-lg">{value.icon}</span>
+                  {value.item}
+                </a>
               </li>
             ))}
             <button

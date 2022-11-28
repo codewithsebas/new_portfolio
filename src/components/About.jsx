@@ -23,13 +23,13 @@ const About = () => {
         </div>
         <div className="w-2/5 bg-contain flex flex-col max-sm:w-full">
           <img
-            className="w-auto dropShadow border-2 rounded-lg"
-            src="https://res.cloudinary.com/dovavvnjx/image/upload/v1654896406/tom_oy9ctk.jpg"
+            className="w-80 shadow-2xl border-2 rounded-lg"
+            src="https://res.cloudinary.com/dovavvnjx/image/upload/v1669441972/me2_jgtp6h.jpg"
             alt="Me"
           />
         </div>
         <div className="w-2/4 flex flex-col gap-3 max-sm:w-full">
-          <h1 className="text-6xl max-sm:text-3xl">Title</h1>
+          <h1 className="text-6xl max-sm:text-3xl">My History</h1>
           <div className="text-lg max-sm:text-base">
             Hello everyone, here is a little summary about me! <br />
             <div className="bg-black/50 dark:bg-white/50 duration-200 w-full h-0.5 my-3"></div>

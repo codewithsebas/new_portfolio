@@ -125,7 +125,7 @@ const Skills = () => {
         {skills.map((value, index) => (
           <div
             key={index}
-            className={`shadow-inner w-full border border-cyan-300/50 rounded-md ${value.border}`}
+            className={`shadow-xl w-full border border-cyan-300/50 rounded-md ${value.border}`}
           >
             <div className="w-full">
               <div className="px-2">
